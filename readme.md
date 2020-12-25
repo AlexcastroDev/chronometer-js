@@ -12,6 +12,11 @@ Não precisa, só abra o index
 
 <br>
 
+## Playground
+<br>
+
+https://jsfiddle.net/alexcastrodev/5n9kpab3/5/
+
 ## Dependências
 
 DayJS (2kb)

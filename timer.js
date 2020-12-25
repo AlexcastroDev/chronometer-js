@@ -43,6 +43,7 @@ const methods = {
     },
     stopTimer: () => {
         clearInterval(this.$time.observable)
+        if (!this.$time.current.diff) return;
         this.$time.current.end = dayjs().format(timeFormat);
         this.$time.end = dayjs();
         this.$refs.table.innerHTML += `<tr>
