@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./timer.css">
+        <link rel="stylesheet" href="./table.css">
+    </head>
+    <body>
+        <div id="main-app">
+            <div id="timer-wrapper">
+                <button id="play-timer"></button>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <th>Início</th>
+                    <th>Fim</th>
+                    <th>Tempo</th>
+                </thead>
+                <tbody id="timer-table"></tbody>
+            </table>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.9.7/dayjs.min.js"></script>
+    <script src="timer.js"></script>
+</html>
+
+<style>
+    #main-app,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    #main-app {
+        display: flex;
+        justify-content: center;
+    }
+    span,
+    div,
+    a,
+    li,
+    th,
+    td {
+        font-family: 'Nunito', sans-serif;
+    }
+</style>
